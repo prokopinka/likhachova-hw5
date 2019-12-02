@@ -1,0 +1,200 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #151F32;
+    line-height: 19px;;
+}
+ .first-block-bg{
+    background-color: #FAFAFA;
+    position: absolute;
+    width: 90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 100%;
+    }
+
+ header {
+   display: flex;
+   align-items: center;
+   height: 15vh; 
+   font-weight: bold;
+   line-height: 17px;
+   }
+
+.logo {
+   width: 15vh;
+   vertical-align: bottom;
+   display: inline-flex;
+   margin-right: 3%;
+   margin-left: 10%;
+}
+
+.middle-navbar {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    vertical-align: bottom;
+}
+
+.right-navbar  {
+    display: inline-flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+
+.nav-link {
+    color: #151F32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wrapper-first-block {
+    display: flex;
+    height: 70vh;
+}
+
+.square {
+    width: 50%;
+    height: auto;
+    
+}
+
+.block-identic {
+   margin-left: 15%;
+   padding-top: 7%;
+   position: relative;
+
+}
+
+.title-block {
+    color: #032F48;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10vw;
+    line-height: 132px;
+    text-align: left;
+}
+
+.identic-underline {
+    margin-top: 4%;
+    width: 20%;
+    height: 0px;
+    border: 6px solid #032F48;
+    background: #032F48;
+}
+
+.identic-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    color: #344159;
+    max-width: 250px;
+    margin-top: 20%;
+}
+
+/*second block*/
+.block-marketing-agency {
+    background-image: url('../images/marketing-block.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.marketing-text-area{
+    padding: 15%;
+}
+
+.sub-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 7%;
+}
+
+
+.general-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.marketing-text {
+    color: #FCD3AC;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.arrows {
+    width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.arrow-left {
+    margin-right: 15px;
+}
+
+.start-button {
+    width: 120px;
+    height: 45px;
+    left: 0;
+    bottom: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 20px;
+    color: #151F32;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.block-marketing-agency::before {
+    content : '';
+    position: absolute;
+    left: -45px;
+    bottom: 5%;
+    background-image: url('../images/setting-button.svg');
+    width: 45px;
+    height: 45px;
+
+}  
+
+.identic-foot {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    color: #C2C2C2;
+}
+
+
+/*2nd SCREEN*/
+
+.wrapper-second-block, .wrapper-third-block {
+    width: 90%;
+    
+}
+
+.container-position {
+    display: flex;
+
+}
+
+.square-yellow {
+    width: 50px;
+    height: 50px;
+}
+

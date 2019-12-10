@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #151F32;
-    line-height: 19px;;
+    line-height: 19px;
 }
  .first-block-bg{
     background-color: #FAFAFA;
@@ -10,7 +10,7 @@ body {
     width: 90%;
     margin-left: 5vw;
     margin-right: 5vw;
-    height: 100%;
+    height: 100vh;
     }
 
  header {
@@ -181,20 +181,49 @@ body {
 }
 
 
-/*2nd SCREEN*/
-
-.wrapper-second-block, .wrapper-third-block {
-    width: 90%;
-    
+/*2nd block*/
+.block-past {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-.container-position {
+
+.container-halves {
     display: flex;
-
+    justify-content: center;
+    width: 50%;
 }
 
-.square-yellow {
-    width: 50px;
-    height: 50px;
+.container-squares {
+    display: flex;
+    justify-content: center;
+    }
+
+.container-squares__sqr-empty, .container-squares__sqr-past, 
+.container-squares__sqr-present,  .container-squares__sqr-future {
+    width: 100px;
+    height: 100px;
 }
 
+.container-squares__sqr-past {
+    background: #F9BA51;
+}
+
+.container-squares__sqr-present {
+    background: #FF7C14;
+}
+
+.container-squares__sqr-future {
+    background: #E75A31;
+}
+
+
+
+.btn {
+    padding: 0.75em 2.5em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: #032F48;
+}

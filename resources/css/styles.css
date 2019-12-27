@@ -276,18 +276,47 @@
             background-repeat: no-repeat;
             position: relative;
             background-size: contain;
-            height: 500px;
-
+            flex-basis: 500px;
+            min-height: 500px;
+            padding: 5em 5em 5em 0;
+            box-sizing: border-box;
         }
 
         .stat-text {
             background: #fff;
-            right: 41%; /*need to customise*/
-            left: 0;
-            top: 13%;
-            bottom: 13%;
-            position: absolute;
+            padding: 2rem 2rem 0.5rem 2rem;
+            min-height: 90%;
+           
+            
         }
+
+        .stat-text__title {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 25px;            
+        }
+
+        .stat-text__inc-exp {
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+        }
+
+        .stat-digits {
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 18px;
+        }
+
+        .stat-income-expence {
+            color: #808083;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 157.3%;
+        }
+
+
 
             /*4th block NEXT*/
 
@@ -303,8 +332,9 @@
         }
 
 
-        .next-gen-textarea {
+        .next-gen__textarea {
             width: 60%;
+            
         }
 
         
